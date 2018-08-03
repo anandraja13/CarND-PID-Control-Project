@@ -33,7 +33,7 @@ int main()
   uWS::Hub h;
 
   PID pid;
-  // TODO: Initialize the pid variable.
+  
   double Kp = 0.15;
   double Ki = 0.001;
   double Kd = 1.5;

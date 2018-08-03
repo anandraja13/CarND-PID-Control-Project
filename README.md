@@ -2,6 +2,20 @@
 Self-Driving Car Engineer Nanodegree Program
 
 ---
+## Effect of Parameters
+This section describes the effect of each of the three parameters.
+### Proportional Gain
+The proportional gain `Kp` is responsible for getting closest to the set point. Too much proportional gain leads to oscillations.
+
+### Derivative Gain
+The derivative gain `Kd` is responsible for correcting for the oscillatory behavior brought on by proportional controllers using derivatives. This comes with the downside of amplifying noise in the incoming signal.
+
+### Integral Gain
+The integral gain `Ki` integrates error over time to correct for the derivative component. 
+
+
+## Choosing Parameters
+Manual tuning is used to choose parameters.
 
 ## Dependencies
 
